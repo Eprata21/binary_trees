@@ -33,7 +33,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 				return (NULL);
 			return (curr->left = new);
 		}
-		if (value > curr->n) 
+		if (value > curr->n)
 		{
 			if (curr->right != NULL)
 				return (bst_insert(&curr->right, value));
