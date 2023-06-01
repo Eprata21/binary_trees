@@ -8,7 +8,7 @@ void pop(levelorder_queue_t **head);
 int binary_tree_is_complete(const binary_tree_t *tree);
 
 /**
- * create_node - Create new node.
+ * create_node - function Create new node.
  * @node: node
  *
  * Return: NULL
