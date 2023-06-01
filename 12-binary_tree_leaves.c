@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_leaves - Number of leaves of a binary tree
+ * binary_tree_leaves - function Number of leaves of a binary tree
  * @tree: Pointer
  * Return: 0 if it is empty
  */
