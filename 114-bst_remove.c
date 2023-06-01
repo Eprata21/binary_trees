@@ -40,6 +40,10 @@ bst_t *bst_delete(bst_t *root, bst_t *node)
 		free(node);
 		return (parent == NULL ? node->right : root);
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> ca2f47580db0f3517096825f2fe0077f899a0dfb
 	if (node->right == NULL)
 	{
 		if (parent != NULL && parent->left == node)
